@@ -7,7 +7,7 @@ public class main {
 	public static void main(String[] args) {
 		Animal animals[] = new Animal[10];
 
-		for (int i = 0; i < 10;  ++i) // modified
+		for (int i = 0; i < animals.length;  ++i) // modified
 			animals[i] = new Animal(); // modified
 
 		for (int iii = 0; iii < 10; iii++) {
