@@ -10,7 +10,6 @@ public class main {
 		for (int i = 0; i < 10;  ++i) // modified
 			animals[i] = new Animal(); // modified
 
-		System.out.println(animals[0].getWeight());
 		for (int iii = 0; iii < 10; iii++) {
 			int ii = 0;
 			for (; ii < 100 && animals[iii].isAlive() ; ii++) {
